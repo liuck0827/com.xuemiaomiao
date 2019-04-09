@@ -1,0 +1,206 @@
+.header-register{
+  width: 100%;
+  height: 100px;
+  color: #999;
+  background-color: #fff;
+}
+
+.header-register .pic{
+  margin: 30px 0 20px;
+}
+
+.header-register .reg{
+  line-height: 100px;
+}
+
+.header-register .reg a{
+  color: #333;
+}
+
+.header-register .reg a:hover{
+  color: #ff3600;
+}
+
+.register-content {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.register-content .regist-main{
+  background-color: #fff;
+  position: relative;
+}
+
+.register-content .regist-box{
+  width: 392px;
+  padding: 60px 0 70px;
+  margin: 0 auto;
+}
+
+.register-content .regist-box .regist-top{
+  height: 52px;
+  line-height: 52px;
+  padding-left: 62px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  background: url('../image/zhucefuli.png') no-repeat left center;
+  color: #999;
+}
+
+.register-content .regist-box .regist-top span{
+  color: #ff3600;
+  font-size: 28px;
+  margin: 0 5px;
+}
+
+.register-content .regist-box div{
+  width: 100%;
+  position: relative;
+  color: #e0e0e0;
+  margin-bottom: 30px; 
+}
+
+.register-content .regist-box input{
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  font-size: 14px;
+  border: 1px solid #e0e0e0;
+  text-indent: 14px;  
+}
+
+.register-content .regist-box .msg{
+  position: absolute;
+  top: 50px;
+  color: #ff3600;
+  font-size: 14px;
+}
+
+.register-content .regist-box div .close{
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  display: none;
+}
+
+.register-content .regist-box div .close:hover{
+  color: #ff3600;
+}
+
+.register-content .regist-box .close i{
+  font-size: 24px;
+}
+
+.register-content .regist-box div.code{
+  width:60%; 
+}
+
+
+.register-content .regist-box div .check-code{
+  position: absolute;
+  top: 0px;
+  right: -157px;
+  width: 152px;
+  height: 48px;
+  background-color: #e0e0e0;
+  color: #333;
+  text-align: center;
+  line-height: 48px;
+}
+
+.register-content .regist-box .btn{
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  margin-top: 20px;
+  /* background-color: #4f8dfe; */
+  background-color: #e0e0e0;
+  color: #fff;
+  cursor: pointer; 
+}
+
+.register-content .regist-box .tip{
+  font-size: 12px;
+  color: #adadad;
+  height: 40px;
+  line-height: 40px;
+}
+
+.register-content .regist-box .tip a{
+  color: #333;
+  margin: 0 5px; 
+}
+
+.register-content .regist-box .tip a:hover{
+  color: #ff3600;
+  cursor: pointer; 
+}
+
+.register-content .regist-success{
+  width: 100%;
+  padding: 95px 0 165px;
+  text-align: center;
+  font-size: 14px;
+  display: none;
+}
+
+.register-content .regist-success .title{
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  height: 37px;
+  line-height: 37px;
+  background: url('../image/success.png') no-repeat;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+}
+
+.register-content .regist-success .title span{
+  margin: 0 8px;
+}
+
+.register-content .regist-success .details{
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.register-content .regist-success .details a{
+  color: #ff3600;
+}
+
+.register-content .regist-success .count-time{
+  margin: 56px 0 20px;
+  font-size: 14px;
+}
+
+.register-content .regist-success .count-time span{
+  font-size: 20px;
+  color: #ff3600;
+}
+
+.register-content .regist-success .btn-again{
+  display: inline-block;
+  width: 152px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background-color: #ff3600;
+  color: #fff;
+  font-size: 16px;
+}
+
+.register-content .copyright{
+  height: 78px;
+  padding-top: 39px;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+
+.active{
+  background-color: #4f8dfe !important;
+  color: #fff !important;
+}

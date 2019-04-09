@@ -1,0 +1,217 @@
+.zuipin-footer{
+  background-color: #fff;
+}
+
+.zuipin-footer .footer-service{
+  padding: 30px 0 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.zuipin-footer .footer-service li{
+  height: 32px;
+  padding: 0 40px 0 82px;
+  line-height: 32px;
+  border-right: 1px solid #e0e0e0;
+  font-size: 14px;
+}
+
+.zuipin-footer .footer-service li:first-child{
+  background: url('../image/css-xuebi.png') no-repeat 0 -135px;
+  padding-left: 40px;
+}
+
+.zuipin-footer .footer-service li:nth-child(2){
+  background: url('../image/css-xuebi.png') no-repeat 40px -188px;
+}
+
+.zuipin-footer .footer-service li:nth-child(3){
+  background: url('../image/css-xuebi.png') no-repeat 40px -240px;
+}
+
+.zuipin-footer .footer-service li:nth-child(4){
+  background: url('../image/css-xuebi.png') no-repeat 40px -289px;
+}
+
+.zuipin-footer .footer-service li:nth-child(5){
+  background: url('../image/css-xuebi.png') no-repeat 40px -34px;
+}
+
+.zuipin-footer .footer-service li:last-child{
+  background: url('../image/css-xuebi.png') no-repeat 40px -84px;
+  border: none;
+  padding-right: 0;
+}
+
+/*=============链接区域========== */
+.zuipin-footer .footer-links{
+  padding: 40px 0;
+}
+
+.zuipin-footer .footer-links .col-link{
+  width: 137px;
+  font-size: 14px;
+  color: #424242;
+  line-height: 1.5;
+}
+
+.zuipin-footer .footer-links .col-link dt{
+  margin-bottom: 25px;
+}
+
+.zuipin-footer .footer-links .col-link dd{
+  color: #757575;
+  margin-top: 13px;
+}
+.zuipin-footer .footer-links .col-link dd:hover{
+  color: #ff3600;
+}
+
+/*=============联系客服========== */
+.zuipin-footer .footer-links .col-contact{
+  width: 227px;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  text-align: center;
+  color: #616161;
+  font-size: 12px;
+}
+
+.zuipin-footer .footer-links .col-contact .phone{
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #ff3600;
+}
+
+.zuipin-footer .footer-links .col-contact .msg{
+  margin-bottom: 16px;
+}
+
+.zuipin-footer .footer-links .col-contact a{
+  display: block;
+  width: 118px;
+  height: 30px;
+  margin:80px auto 0;
+  line-height: 30px;
+  border: 1px solid #ff3600;
+  background-color: #fff;
+  color: #ff3600;
+  font-size: 14px;
+}
+
+.zuipin-footer .footer-links .col-contact a:hover{
+  background-color: #ff3600;
+  color: #fff;
+}
+
+.zuipin-footer .footer-links .col-contact a i{
+  display: inline-block;
+  width: 18px;
+  height: 16px;
+  background: url('../image/css-xuebi.png') no-repeat;
+  vertical-align: middle;
+  margin-right: 5px;
+  transition: all .3s;
+}
+
+.zuipin-footer .footer-links .col-contact a:hover i{
+  background: url('../image/css-xuebi.png') no-repeat 0px -16px;
+}
+
+/*=============二维码========== */
+.zuipin-footer .footer-links .col-code{
+  width: 175px;
+  height: 145px;
+  margin-top: 23px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.zuipin-footer .footer-links .col-code p{
+  margin-top: -10px;
+  color: #616161;
+}
+
+/*=============底部信息========== */
+.footer-box{
+  width: 100%;
+  font-size: 12px;
+  background-color: #333;
+  color: #b0b0b0;
+  padding: 30px 0;
+}
+
+.footer-box .zuipin-info{
+  padding-left: 10px;
+  line-height: 1.8;
+}
+
+.footer-box .zuipin-info ul li a{
+  padding: 0 15px;
+  border-right: 1px solid #b0b0b0;
+}
+
+.footer-box .zuipin-info ul li a:hover{
+  color: #ff3600;
+}
+
+.footer-box .zuipin-info ul li:first-child a{
+  padding-left: 0;
+}
+
+.footer-box .zuipin-info ul li:last-child a{
+  padding-right: 0;
+  border-right:0;
+}
+
+.footer-box .zuipin-info p a{
+  margin-left: 10px;
+}
+
+.footer-box .zuipin-info p a:hover{
+  color: #ff3600;
+}
+
+.footer-box .zuipin-pic{
+  margin: 18px 50px;
+}
+
+.footer-box .info-links{
+  /* width: 538px; */
+  height: 38px;
+  margin-top: 11px;
+}
+
+.footer-box .info-links li a{
+  display: block;
+  padding-left: 29px;
+  margin-left: 10px; 
+}
+
+.footer-box .info-links li:first-child a{
+  background: url('../image/zp_ic_hxcy.png') no-repeat left center;
+}
+
+.footer-box .info-links li:nth-child(2) a{
+  background: url('../image/zp_ic_aq.png') no-repeat left center;
+}
+
+.footer-box .info-links li:nth-child(3) a{
+  background: url('../image/zp_ic_kx.png') no-repeat left center;
+}
+
+.footer-box .info-links li:nth-child(4) a{
+  background: url('../image/zp_ic_hxcy.png') no-repeat left center;
+}
+
+.footer-box .info-links li:last-child a{
+  background: url('../image/zp_ic_yyzz.png') no-repeat left center;
+}
+
+.footer-box .info-links li a:hover{
+  color: #ff3600;
+}
+
+.footer-box .info-links li a span{
+  display: inline-block;
+  margin-left: 5px;
+}

@@ -1,0 +1,263 @@
+.header-nav .menu-list .sec-menu{
+  color: #666;
+  border: 1px solid red;
+}
+
+.header-nav .menu-list .sec-menu .one-tea{
+  display: none;
+}
+
+
+.content{
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+}
+
+.now-page{
+  width: 100%;
+  height: 40px;
+}
+
+.now-page li{
+  font-size: 12px;
+  color: #d2d2d2;
+  margin-right: 5px;
+  line-height: 40px;
+}
+
+.now-page li a{
+  color: #b0b0b0;
+}
+
+/* 商品列表轮播图 */
+.banner{
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner a{
+  display: inline-block;
+}
+
+.banner .hd{
+  position: absolute;
+  top: 90%;
+  left: 47%;
+}
+
+.banner .hd li{
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  border-radius:50%;
+  border: 4px solid #b94944;
+  background-color: #d9acaa; 
+}
+
+/* 商品列表 */
+.list{
+  width: 100%;
+  background-color: #fff; 
+}
+
+.list li{
+  line-height: 60px;
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+.list li:first-child{
+  color: #999;
+}
+
+.list li:first-child a{
+  display: inline-block;
+  width: 56px;
+  text-align-last: justify;
+  margin-right: 5px;
+}
+
+.list li:first-child~li a:hover{
+  color: #ff3600;
+}
+
+.list li a.on{
+  color: #ff3600;
+}
+
+.category-list{
+  margin-top: 40px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.list-items{
+  background-color: #fff;
+}
+
+.list-items li{
+  line-height: 60px;
+  margin-right: 40px;
+  font-size: 14px;
+}
+
+.list-items li:nth-child(3) a{
+  display: inline-block;
+  padding-right: 10px;
+  background: url('../image/xia.jpg') no-repeat 26px center;;
+}
+
+.list-items li a:hover{
+  color: #ff3600;
+}
+
+/* 商品列表 */
+.goods-list{
+  margin: 30px -14px 0 0;
+  font-size: 14px;   
+}
+
+.goods-list .item{
+  width: 296px;
+  height: 434px;
+  background-color: #fff;
+  margin: 0 14px 14px 0;
+  padding: 30px 20px 0;
+  position: relative;
+  transition: all .3s;
+  overflow: hidden;
+}
+
+.goods-list .item:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.goods-list .item dt a{
+  display: block;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.goods-list .item .big-title{
+  margin: 21px 0 10px;
+  text-align: center;
+  line-height: 1.5;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2;
+  text-overflow: ellipsis;
+}
+
+.goods-list .item:hover .big-title{
+  color: red;
+}
+
+.goods-list .item .sec-title{
+  margin: 0 auto 20px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #b0b0b0;
+  padding: 0 20px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.goods-list .item .price{
+  margin-bottom: 20px;
+  text-align: center;
+  color: #c00;
+  line-height: 14px;
+}
+
+.goods-list .item .pinjia{
+  text-align: center;
+  color: #ccc;
+  line-height: 14px;
+}
+
+.goods-list .item .cart-show p{
+  position: absolute;
+  bottom:-52px;
+  left: 0px;
+  width: 100%;
+  line-height: 52px;
+  background-color: red;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all .3s;  
+}
+
+.goods-list .item:hover .cart-show p{
+  bottom:0;
+}
+
+/* 分页 */
+.page-wrap{
+  position: relative;
+  padding-bottom: 72px; 
+}
+
+.page{
+  margin: 42px 0;
+  font-size: 14px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.page li{
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #e7e7e7;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.page li.on{
+  color: #fff;
+  background-color:#a1c3f9; 
+}
+
+.page li:first-child,
+.page li:last-child{
+  width: 82px;
+}
+
+.page .page-search{
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.page .page-search span{
+  margin-right: 5px;
+  color: #333;
+}
+
+.page .page-search span input{
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  margin: 0 5px;
+}
+
+.page .page-search span input:focus{
+  border-color: #a1c3f9;
+}
+
+.page .page-search button{
+  background-color: #f6f6f6;
+  margin-left: 5px;
+  padding: 0 8px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+}

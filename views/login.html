@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登录</title>
+  <link rel="shortcut icon" href="../public/image/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../public/css/common.css">
+  <link rel="stylesheet" href="../public/css/login.css">
+  <link rel="stylesheet" href="../public/css/footer.css">
+  <link rel="stylesheet" href="../public/css/iconfont.css">
+</head>
+<body>
+  <!-- 登录头 -->
+  <div class="header-logo">
+    <div class="container clearfix">
+      <a href="http://localhost:5050/" class="float-left">
+        <img src="../public/image/logo.png">
+      </a>
+    </div>
+  </div>
+  <!-- 登录区域 -->
+  <div class="login-content">
+    <div class="container">
+      <a  class="bg-login" href="#">
+        <img src="../public/image/bg_login.jpg">
+      </a>
+      <div class="login-page">
+        <!-- 登录方式 -->
+        <ul class="clearfix login-type">
+          <li class="float-left on">
+            <a href="javascript:;">账号登录</a>
+          </li>
+          <li class="float-right">
+            <a href="javascript:;">短信登录</a>
+          </li>
+        </ul>
+        <!-- 登录输入 -->
+        <ul class="login-method clearfix">
+          <li class="float-left active">
+            <input type="text" placeholder="邮箱/手机号码" id="phoneOrEmail">
+            <input type="password" placeholder="密码" id="pwd">
+          </li>
+          <li class="float-left">
+            <input name="phone" type="text" placeholder="手机号码">
+            <input name="captcha" type="text" placeholder="图片验证码">
+            <img src="./getCaptcha.do" class="pic-check" data-togger="getCaptcha">
+            <input name="phoneCode" type="text" placeholder="手机验证码">
+            <a id="msg" href="javascript:;" class="phone-check" >获取验证码</a>
+          </li>
+        </ul>
+        <p class="login-tips">
+          <i class="iconfont icon-tishi"></i>
+          <span>您输入的账号格式有误，请核实后重新输入</span>
+        </p>
+        <!-- 按钮区域 -->
+        <button class="btn" disabled>立即登陆</button>
+        <div class="regist-box">
+          <a href="./register.html">注册醉品账号</a>
+          <span>|</span>
+          <a href="#">忘记密码?</a>
+        </div>
+        <!-- 其他登录方式 -->
+        <div class="other-method">
+          <div class="choose">其他登录方式</div>
+          <ul class="clearfix">
+            <li class="float-left zhifb">
+              <a href="#"></a>
+            </li>
+            <li class="float-left qq">
+              <a href="#"></a>
+            </li>
+            <li class="float-left weixin">
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 页面尾部 -->
+  <% include ./footer.html %>
+</body>
+</html>
+<script src="../public/js/jquery-3.2.1.js"></script>
+<script src="../public/js/ajax.js"></script>
+<script src="../public/js/utils.js"></script>
+<script src="../public/js/login.js"></script>

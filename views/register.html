@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>注册页面</title>
+  <link rel="stylesheet" href="../public/css/iconfont.css">
+  <link rel="shortcut icon" href="../public/image/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../public/css/common.css">
+  <link rel="stylesheet" href="../public/css/register.css">
+</head>
+<body>
+  <!-- 注册头 -->
+  <div class="header-register">
+    <div class="container clearfix">
+      <a href="http://localhost:5050/" class="pic float-left">
+        <img src="../public/image/logo.png">
+      </a>
+      <span class="reg float-right">已有账号？<a href="./login.html">请登录<i class="iconfont icon-xiangyou"></i></a></span>
+    </div>
+  </div>
+  <!-- 注册内容 -->
+  <div class="register-content">
+    <div class="container regist-main">
+      <!-- 注册主区域 -->
+      <div class="regist-box">
+        <div class="regist-top">
+          注册即送<span>500</span>醉品商城积分
+        </div>
+        <form action="#" id="form">
+          <div>
+            <input name="phone" type="text" placeholder="手机号码" maxlength="11">
+            <p class="msg on">
+              <i class="iconfont"></i>
+              <span class="tip-red"></span>
+            </p>
+            <a href="#" class="close">
+              <i class="iconfont icon-guanbi2"></i>
+            </a>
+          </div>
+          <div>
+            <input name="pwd" type="password" placeholder="6-16位密码">
+            <p class="msg">
+              <i class="iconfont"></i>
+              <span class="tip-red"></span>
+            </p>
+            <a href="#" class="close">
+              <i class="iconfont icon-guanbi2"></i>
+            </a>
+          </div>
+          <div>
+            <input name="rePwd" type="password" placeholder="再次输入密码">
+            <p class="msg">
+              <i class="iconfont"></i>
+              <span class="tip-red"></span>
+            </p>
+            <a href="#" class="close">
+              <i class="iconfont icon-guanbi2"></i>
+            </a>
+          </div>
+          <div class="code">
+            <input name="captcha" type="text" placeholder="验证码">
+            <p class="msg">
+              <i class="iconfont"></i>
+              <span class="tip-red"></span>
+            </p>
+            <img src="./getCaptcha.do" class="check-code" data-togger="changeCatch">
+            <a href="#" class="close">
+              <i class="iconfont icon-guanbi2"></i>
+            </a>
+          </div>
+          <div class="code">
+            <input name="phone_code" type="text" placeholder="手机验证码">
+            <p class="msg">
+              <i class="iconfont"></i>
+              <span class="tip-red"></span>
+            </p>
+            <a href="javascript:;" class="check-code" data-togger="phone_code">获取验证码</a>
+            <a href="#" class="close">
+              <i class="iconfont icon-guanbi2"></i>
+            </a>
+          </div>
+          <button class="btn" type="button" >立即注册</button>
+          <p class="tip">
+              点击“立即注册”，即表示您同意并愿意遵守醉品<a>用户协议</a>和<a>隐私政策</a>
+          </p>
+        </form>
+      </div>
+      <!-- 注册成功 -->
+      <div class="regist-success">
+        <p class="title">注册成功!<span class="suc_phone">15280083714</span>欢迎加入醉品</p>
+        <p class="details">500醉品积分<a href="../html/login.html">已入账</a></p>
+        <div>
+          <img src="../public/image/prize.png">
+        </div>
+        <p class="count-time"><span class="time">5s</span>后将自动继续购物~</p>
+        <a href="http://localhost:5050" class="btn-again">继续购物</a>
+      </div>
+      <!-- copyright -->
+      <p class="copyright">Copyright 2010 - 2019 醉品茶城 厦门醉品春秋网络科技有限公司</p>
+    </div>
+  </div>
+</body>
+</html>
+<script src="../public/js/utils.js"></script>
+<script src="../public/js/jquery-3.2.1.js"></script>
+<script src="../public/js/ajax.js"></script>
+<script src="../public/js/register.js"></script>
